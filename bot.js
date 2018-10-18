@@ -156,7 +156,7 @@ client.on('message' , message => {
        .setColor(0xd3d0c4)
   .setAuthor(message.author.username, message.author.avatarURL)
   .setTitle(':arrow_right: Click Here Invite Link اضغط هنا')
-  .setURL('https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=502456549021843466&permissions=0&scope=bot')
   
   message.channel.sendEmbed(embed);
   
@@ -1326,8 +1326,7 @@ message.react("😵")
 
 ══════════ஜ۩۞۩ஜ════════════
 
-**:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
-🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
+🔗 **| دعوة البوت** : https://discordapp.com/api/oauth2/authorize?client_id=502456549021843466&permissions=0&scope=bot
 :exclamation:  **| لدعوة البوت ** : +invite
 :exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
  `)
