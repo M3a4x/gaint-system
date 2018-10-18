@@ -1194,7 +1194,7 @@ if(message.channel.type == 'dm') return;
 const embed = new Discord.RichEmbed() 
     .setColor("RANDOM")
     .setFooter('Requested by '+message.author.username, message.author.avatarURL)
-    .setAuthor("Voice Online", "https://images-ext-1.discordapp.net/external/vp2vj9m0ieU5J6SHg6ObIsGpTJyoZnGAebrd0_vi848/https/i.imgur.com/GnR2unD.png?width=455&height=455")
+    .setAuthor("Voice Online", "https://cdn.discordapp.com/attachments/497456599602823168/502448369663475713/8a1849976873db1d_1.png")
         .setFooter(` العدد : ${guild.members.filter(member => member.voiceChannel).size}`)
     .setDescription(`\n${guild.members.filter(member => member.voiceChannel).map(m => m.user.tag).join('\n')}`);
   message.channel.sendEmbed(embed);
